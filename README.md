@@ -1,4 +1,4 @@
-Tabela tb_categorias:
+**Tabela tb_categorias:**
 
 id (bigint auto_increment primary key): Identificador único para cada categoria.
 descricao (varchar(255) not null): Descrição da categoria.
@@ -10,7 +10,7 @@ A descricao permite uma descrição informativa da categoria.
 O atributo perecivel é uma escolha relevante para indicar se os produtos nessa categoria são perecíveis ou não.
 
 
-Tabela tb_usuarios:
+**Tabela tb_usuarios:**
 id (bigint auto_increment primary key): Identificador único para cada usuário.
 nome (varchar(255) not null): Nome do usuário.
 usuario (varchar(255) not null unique): Nome de usuário único para login.
@@ -23,7 +23,7 @@ O usuario é escolhido como único para garantir logins distintos.
 A foto é opcional, pois nem todos os usuários podem ter uma foto associada.
 
 
-Tabela tb_produtos:
+**Tabela tb_produtos:**
 id (bigint auto_increment primary key): Identificador único para cada produto.
 nome (varchar(255) not null unique): Nome do produto.
 descricao (varchar(255)): Descrição do produto.
